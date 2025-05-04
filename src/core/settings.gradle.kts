@@ -1,3 +1,3 @@
 rootProject.name = "core"
 
-include("lib")
+include("concurrent")
