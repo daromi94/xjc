@@ -1,4 +1,4 @@
-package com.daromi.xjc.core.concurrent;
+package com.daromi.xjc.core.counter;
 
 public interface ConcurrentCounter {
 
