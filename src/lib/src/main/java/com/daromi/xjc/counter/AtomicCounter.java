@@ -1,4 +1,4 @@
-package com.daromi.xjc.core.counter;
+package com.daromi.xjc.counter;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

@@ -1,9 +1,10 @@
-package com.daromi.xjc.core.counter;
+package com.daromi.xjc.counter;
 
 final class SynchronizedCounter implements ConcurrentCounter {
 
-  private final Object lock = new Object();
   private int count = 0;
+
+  private final Object lock = new Object();
 
   @Override
   public void increment() {
