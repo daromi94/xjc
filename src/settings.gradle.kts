@@ -2,6 +2,6 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version ("1.0.0")
 }
 
-rootProject.name = "core"
+rootProject.name = "xjc"
 
-include("counter")
+include("lib")
