@@ -1,7 +1,25 @@
-plugins { `java-library` }
+plugins {
+    `java-library`
+}
 
-group = "com.daromi.xjc.core"
+group = "com.daromi"
 
-repositories { mavenCentral() }
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
 
-dependencies { api("org.jspecify:jspecify:1.0.0") }
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    api("org.jspecify:jspecify:1.0.0")
+
+    testImplementation("org.junit.jupiter:junit-jupiter:6.0.2")
+}
+
+tasks.test {
+    useJUnitPlatform()
+}

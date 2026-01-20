@@ -7,5 +7,8 @@ tasks:
   clean:
     cmd: ./gradlew clean
 
+  test:
+    cmd: ./gradlew test
+
   build:
     cmd: ./gradlew build
